@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "Id": "book_001",
+      "DisplayName": "员工守则手册",
+      "RuleIds": [
+        "rule_001",
+        "rule_002",
+        "rule_003",
+        "rule_006"
+      ],
+      "MaxRefreshCount": 3,
+      "CoverSpriteName": "book_001"
+    },
+    {
+      "Id": "book_002",
+      "DisplayName": "保安应急处理100则",
+      "RuleIds": [
+        "rule_004",
+        "rule_005",
+        "rule_007",
+        "rule_008"
+      ],
+      "MaxRefreshCount": 3,
+      "CoverSpriteName": "book_002"
+    },
+    {
+      "Id": "book_003",
+      "DisplayName": "好保洁和富保安：打工人的自我修养",
+      "RuleIds": [
+        "rule_003",
+        "rule_005",
+        "rule_002",
+        "rule_006"
+      ],
+      "MaxRefreshCount": 3,
+      "CoverSpriteName": "book_003"
+    },
+    {
+      "Id": "book_004",
+      "DisplayName": "做一个好保安，要学会警惕外人",
+      "RuleIds": [
+        "rule_005",
+        "rule_008",
+        "rule_009",
+        "rule_010"
+      ],
+      "MaxRefreshCount": 3,
+      "CoverSpriteName": ""
+    },
+    {
+      "Id": "book_005",
+      "DisplayName": "脑袋乱乱的时候看看这个",
+      "RuleIds": [
+        "rule_011",
+        "rule_012",
+        "rule_013",
+        "rule_014"
+      ],
+      "MaxRefreshCount": 3,
+      "CoverSpriteName": ""
+    }
+  ]
+}

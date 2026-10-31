@@ -1,0 +1,29 @@
+﻿保安七日实习 · 按钮音效
+生成日期：2026-10-20
+格式：44.1 kHz / 16-bit / 单声道 WAV
+授权：可商用、可修改、无需署名（按 CC0 使用）
+说明：全部为代码合成，没有使用外部采样；风格按卡通粗描边 UI 做成“短、圆、轻”，避免尖锐电子音。
+
+00_preview_all.wav   4.5s   全部音效试听（每段之间留了间隔）
+ui_hover.wav         0.055s 鼠标悬停 / 选中
+ui_click.wav         0.085s 普通按钮点击
+ui_pop.wav           0.115s 打开面板 / 弹出提示
+ui_confirm.wav       0.240s 确认 / 开始游戏 / 开始上班
+ui_back.wav          0.160s 返回 / 关闭 / 取消
+ui_error.wav         0.250s 不可用 / 拦截 / 操作失败
+ui_paper.wav         0.220s 选书 / 翻页 / 纸张
+ui_stamp.wav         0.200s 盖章 / 结算 / 进入下一天
+
+建议用法：
+- 普通按钮：ui_click
+- 主按钮（开始游戏、开始上班、下一天）：ui_confirm
+- 返回、关闭、取消：ui_back
+- 打开规则书、选择书：ui_paper
+- 规则不允许 / 拦截失败：ui_error
+- 结算盖章：ui_stamp
+- 鼠标悬停：ui_hover（音量要比 click 更低）
+
+Unity 导入建议：
+- 全部保持 WAV，Load Type 用 Decompress On Load，Preload Audio Data 打开。
+- 这些音效很短，不需要 Streaming。
+- UI 音量建议比 BGM 高 6–8 dB，但 hover 要再压低一点。

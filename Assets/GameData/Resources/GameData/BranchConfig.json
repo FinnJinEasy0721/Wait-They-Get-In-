@@ -1,0 +1,352 @@
+{
+  "branches": [
+    {
+      "EventId": "branch_001",
+      "ConditionDay": "第1天",
+      "Visitor1": "visitor_014",
+      "Verdict1": "错误放行",
+      "EffectDay": "第2天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "听说了吗，昨天那个拿过期工牌的真混进去了！"
+        },
+        {
+          "Sender": "小张",
+          "Text": "真证过期也算混入，你怎么没拦住"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天工牌刚好改版，新牌旧牌长得像，你看仔细点！"
+        }
+      ],
+      "Feedback": "通报批评：放走了持过期工牌的嫌疑人。",
+      "Visitor2": "",
+      "Verdict2": "",
+      "DayState": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_002",
+      "ConditionDay": "第2天",
+      "Visitor1": "visitor_003",
+      "Verdict1": "错误拦截",
+      "EffectDay": "第3天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天新来的员工被你拦了，人家投诉了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "新工牌跟旧的很像，不查图册真认不出"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天有几个陌生访客，别因为昨天拦错，今天就不敢拦了。"
+        }
+      ],
+      "Feedback": "投诉：误拦了持新工牌的正常员工。",
+      "Visitor2": "",
+      "Verdict2": "",
+      "DayState": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_003",
+      "ConditionDay": "第3天",
+      "Visitor1": "visitor_005",
+      "Verdict1": "错误放行",
+      "EffectDay": "第4天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天那个名单外的被你拦了，人家是来送文件的"
+        },
+        {
+          "Sender": "小张",
+          "Text": "名单外不等于坏人，行为正常就放行"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天有证件过期的，别又拦错。"
+        }
+      ],
+      "NewsTitle": "《公司内刊》关于误拦持新工牌员工的说明",
+      "NewsContent": "昨日一名持新版工牌的正常员工被误拦，提醒保安及时更新图册，同时注意区分真正可疑的陌生访客。",
+      "Feedback": "通报批评：放行了多重疑点的危险人员。",
+      "Visitor2": "",
+      "Verdict2": "",
+      "DayState": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_004",
+      "ConditionDay": "第4天",
+      "Visitor1": "visitor_006",
+      "Verdict1": "错误拦截",
+      "EffectDay": "第5天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天那个证件过期的被拦了，人家闹到HR去了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "人家是技术总监，真证刚过期两天，你按规章拦人"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天有大客户，别再神经过敏了。"
+        }
+      ],
+      "Feedback": "通报批评：过度警戒，错误拦截了证件过期的正常员工。",
+      "Visitor2": "",
+      "Verdict2": "",
+      "DayState": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_005",
+      "ConditionDay": "第5天",
+      "Visitor1": "visitor_012",
+      "Verdict1": "错误放行",
+      "EffectDay": "第6天",
+      "ChatMessages": [
+        {
+          "Sender": "秘书",
+          "Text": "昨天那个大客户是假的！他去老板办公室偷看文件了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "穿着制服、说自己认识老板，套路太深了"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天门口人多眼杂，长点心吧！"
+        }
+      ],
+      "NewsTitle": "《财经周刊》神秘客户实为商业间谍",
+      "NewsContent": "本周多家公司接待神秘客户后出现信息泄露，警方提醒核实访客身份，制服和言辞不等于身份。",
+      "Feedback": "严重通报：放行了身份不明的“假大客户”，公司信息泄露。",
+      "Visitor2": "",
+      "Verdict2": "",
+      "DayState": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_006",
+      "ConditionDay": "第6天",
+      "Visitor1": "visitor_009",
+      "Verdict1": "错误放行",
+      "EffectDay": "第7天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天那个没牌、行为怪、证件还过期的人，你怎么放进去了？"
+        },
+        {
+          "Sender": "小张",
+          "Text": "今天试用期最后一天，老板要看监控"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天综合访客都要来，好好表现！"
+        }
+      ],
+      "Feedback": "通报批评：放行了多重疑点的危险人员，今天是试用期最后一天。",
+      "Visitor2": "",
+      "Verdict2": "",
+      "DayState": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_007",
+      "ConditionDay": "第1天",
+      "DayState": "当天有访客被逼走",
+      "EffectDay": "第2天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天那个忘带工牌的老王被你问了三遍，气得找HR了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "他天天来上班，别把人往死里逼"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天新工牌改版，别又把人逼急！"
+        }
+      ],
+      "Feedback": "访客投诉：有员工被反复盘问后愤怒离开。",
+      "Visitor1": "",
+      "Verdict1": "",
+      "Visitor2": "",
+      "Verdict2": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_008",
+      "ConditionDay": "第2天",
+      "DayState": "当天有访客被逼走",
+      "EffectDay": "第3天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天新员工被盘问得直接走了，人家刚入职"
+        },
+        {
+          "Sender": "小张",
+          "Text": "态度好点，别吓到新人"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天有外地访客，注意态度。"
+        }
+      ],
+      "Feedback": "访客投诉：因过度盘问逼走了新员工。",
+      "Visitor1": "",
+      "Verdict1": "",
+      "Visitor2": "",
+      "Verdict2": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_009",
+      "ConditionDay": "第3天",
+      "DayState": "当天有访客被逼走",
+      "EffectDay": "第4天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天那个外地口音的被你盘问得直接走了，人家真的是来谈业务的"
+        },
+        {
+          "Sender": "小张",
+          "Text": "口音怪就起疑，这毛病得改"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天有证件过期的，别太冲。"
+        }
+      ],
+      "Feedback": "访客投诉：因口音问题过度盘问，逼走了正常访客。",
+      "Visitor1": "",
+      "Verdict1": "",
+      "Visitor2": "",
+      "Verdict2": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_010",
+      "ConditionDay": "第4天",
+      "DayState": "当天有访客被逼走",
+      "EffectDay": "第5天",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "昨天那个说话前后矛盾的，被你问得直接骂人走了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "他说话颠三倒四确实可疑"
+        },
+        {
+          "Sender": "前台",
+          "Text": "但是投诉就是投诉，今天大客户来，态度好点。"
+        }
+      ],
+      "Feedback": "访客投诉：有访客被反复盘问后愤怒离开。",
+      "Visitor1": "",
+      "Verdict1": "",
+      "Visitor2": "",
+      "Verdict2": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_011",
+      "ConditionDay": "第5天",
+      "DayState": "当天有访客被逼走",
+      "EffectDay": "第6天",
+      "ChatMessages": [
+        {
+          "Sender": "秘书",
+          "Text": "昨天大客户被保安问得脸都绿了，直接找老板投诉了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "人家穿着制服、有工牌，你查那么严干嘛"
+        },
+        {
+          "Sender": "前台",
+          "Text": "今天人流复杂，别乱得罪人。"
+        }
+      ],
+      "Feedback": "重大投诉：有贵宾被过度盘问愤怒离开。",
+      "Visitor1": "",
+      "Verdict1": "",
+      "Visitor2": "",
+      "Verdict2": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    },
+    {
+      "EventId": "branch_012",
+      "ConditionDay": "第6天",
+      "DayState": "当天有访客被逼走",
+      "EffectDay": "第7天",
+      "ChatMessages": [
+        {
+          "Sender": "工会",
+          "Text": "昨天快递员被拦急了，投诉到工会了"
+        },
+        {
+          "Sender": "前台",
+          "Text": "快递员也不容易，该登记登记，别凶人家"
+        },
+        {
+          "Sender": "老板",
+          "Text": "试用期最后一天，给保安最后的机会。"
+        }
+      ],
+      "Feedback": "工会投诉：快递员被逼愤怒离开，影响公司形象。",
+      "Visitor1": "",
+      "Verdict1": "",
+      "Visitor2": "",
+      "Verdict2": "",
+      "NewsTitle": "",
+      "NewsContent": "",
+      "AddVisitors": [],
+      "RemoveVisitors": []
+    }
+  ]
+}

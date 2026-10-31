@@ -1,0 +1,136 @@
+{
+  "weights": [
+    {
+      "Tag": "有工牌",
+      "RecognizedWeight": 5,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "无工牌",
+      "RecognizedWeight": -3,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "有制服",
+      "RecognizedWeight": 6,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "无制服",
+      "RecognizedWeight": 0,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "在名单内",
+      "RecognizedWeight": 6,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "在名单外",
+      "RecognizedWeight": -4,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "口音正常",
+      "RecognizedWeight": 1,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "口音异常",
+      "RecognizedWeight": -4,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "行为正常",
+      "RecognizedWeight": 2,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "行为异常",
+      "RecognizedWeight": -7,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "持证",
+      "RecognizedWeight": 3,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "证件过期",
+      "RecognizedWeight": -11,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "声称认识老板",
+      "RecognizedWeight": -3,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "笑容",
+      "RecognizedWeight": 1,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "沮丧",
+      "RecognizedWeight": 0,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "心虚",
+      "RecognizedWeight": -8,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "工牌为真",
+      "RecognizedWeight": 4,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "工牌为假",
+      "RecognizedWeight": -8,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "证件有效",
+      "RecognizedWeight": 2,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "新样式工牌",
+      "RecognizedWeight": 8,
+      "UnrecognizedWeight": "-25",
+      "RecognizeSources": "装配:rule_002;新闻:第2天;投诉:新样式工牌"
+    },
+    {
+      "Tag": "完成访客登记",
+      "RecognizedWeight": 2,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    },
+    {
+      "Tag": "未完成登记",
+      "RecognizedWeight": -3,
+      "UnrecognizedWeight": "",
+      "RecognizeSources": ""
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "behaviours": [
+    {
+      "Id": "b_001",
+      "VisitorId": "visitor_001",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:有工牌",
+      "ResponseText": "（笑着递过工牌）您好，这是我的工牌，您看。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_002",
+      "VisitorId": "visitor_001",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢！辛苦您了，回头见。",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_003",
+      "VisitorId": "visitor_001",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:懵逼>=3",
+      "ResponseText": "（有点不耐烦）同一个问题问三遍，您这是查户口呢？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_004",
+      "VisitorId": "visitor_014",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:有工牌",
+      "ResponseText": "（掏出工牌，手有点快）喏，看吧。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_005",
+      "VisitorId": "visitor_014",
+      "ActionName": "遮挡时间信息",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:证件过期,心虚",
+      "ResponseText": "（手指悄悄遮住了工牌上的日期）",
+      "HideAttributes": [
+        "证件过期"
+      ]
+    },
+    {
+      "Id": "b_006",
+      "VisitorId": "visitor_014",
+      "ActionName": "逃跑",
+      "TriggerRequest": "请勿遮挡时间信息",
+      "ResponseText": "（脸色一变，转身就跑！）",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_007",
+      "VisitorId": "visitor_002",
+      "ActionName": "解释工牌忘带",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "（沮丧地翻包）今天出门太急，工牌忘带了，希望保安通融一下，我真是这儿的员工。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_008",
+      "VisitorId": "visitor_002",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢您嘞，明天一定带上！",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_009",
+      "VisitorId": "visitor_002",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "（涨红脸）我天天来上班你还不认识我？！至于吗！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_010",
+      "VisitorId": "visitor_002",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "（气冲冲转身离开）这班不上也罢！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_011",
+      "VisitorId": "visitor_006",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:持证",
+      "ResponseText": "（递过证件）您看，证件在这儿。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_012",
+      "VisitorId": "visitor_006",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢，麻烦您了。",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_013",
+      "VisitorId": "visitor_006",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "（皱眉）都说了证件是真的，就是过期了几天，至于吗？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_014",
+      "VisitorId": "visitor_006",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "（收起证件）行，那我改天再来。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_015",
+      "VisitorId": "visitor_007",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "（眼神飘忽）工牌？啊……我忘带了，但我真是来办事的。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_016",
+      "VisitorId": "visitor_007",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "（突然提高音量）你老问什么问！我不是说了吗！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_017",
+      "VisitorId": "visitor_007",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "（骂骂咧咧转身）不进了行吧！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_018",
+      "VisitorId": "visitor_005",
+      "ActionName": "解释工牌忘带",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "（不耐烦）我认识你们老板，还需要看什么工牌？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_019",
+      "VisitorId": "visitor_005",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "你新来的吧？敢拦我？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_020",
+      "VisitorId": "visitor_005",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "行，我直接给你们老板打电话。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_021",
+      "VisitorId": "visitor_012",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:有工牌",
+      "ResponseText": "（傲慢地递过工牌）看清楚了，我是贵宾。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_022",
+      "VisitorId": "visitor_012",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "你们公司就是这么对待大客户的？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_023",
+      "VisitorId": "visitor_012",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "这笔生意你们别想谈了！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_024",
+      "VisitorId": "visitor_009",
+      "ActionName": "解释工牌忘带",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "（眼神躲闪）额……我工牌在车里，我找个人就下来。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_025",
+      "VisitorId": "visitor_009",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "（转身就跑）",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_026",
+      "VisitorId": "visitor_003",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:有工牌",
+      "ResponseText": "您好，这是我的新工牌，刚换的。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_027",
+      "VisitorId": "visitor_003",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢，辛苦了！",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_028",
+      "VisitorId": "visitor_003",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "都说了是新工牌，你怎么这么死板？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_029",
+      "VisitorId": "visitor_003",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "我不进了行吧，我要去投诉你！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_030",
+      "VisitorId": "visitor_004",
+      "ActionName": "解释工牌忘带",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "我是来送文件的，马上就走，没带工牌。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_031",
+      "VisitorId": "visitor_004",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢您，马上送完就出来。",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_032",
+      "VisitorId": "visitor_004",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "我真的是来送文件的，你们怎么这么麻烦！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_033",
+      "VisitorId": "visitor_004",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "算了，我让里面的人自己出来拿。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_034",
+      "VisitorId": "visitor_008",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:有工牌",
+      "ResponseText": "你好，我是今天预约的客户。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_035",
+      "VisitorId": "visitor_008",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢，服务不错。",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_036",
+      "VisitorId": "visitor_008",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "你们对待贵宾就是这个态度？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_037",
+      "VisitorId": "visitor_008",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "我找你们领导说去。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_038",
+      "VisitorId": "visitor_010",
+      "ActionName": "解释工牌忘带",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "（焦急）我送快递的，一天来八百趟，哪有空带牌啊！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_039",
+      "VisitorId": "visitor_010",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢大哥，祝您今天不加班！",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_040",
+      "VisitorId": "visitor_010",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "我这还有几十个件要送，你耽误得起吗！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_041",
+      "VisitorId": "visitor_010",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "（骂骂咧咧）这单我直接退回！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_042",
+      "VisitorId": "visitor_011",
+      "ActionName": "出示工牌",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:有工牌",
+      "ResponseText": "（紧张）您好，我是今天刚入职的。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_043",
+      "VisitorId": "visitor_011",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢前辈！",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_044",
+      "VisitorId": "visitor_011",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "我真的刚入职，你干嘛一直查我？",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_045",
+      "VisitorId": "visitor_011",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "这公司太可怕了，我不干了。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_046",
+      "VisitorId": "visitor_013",
+      "ActionName": "解释工牌忘带",
+      "TriggerRequest": "请出示工牌",
+      "TriggerCondition": "需属性:无工牌",
+      "ResponseText": "（外地口音）大哥，俺是来谈业务的，走得急没带。",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_047",
+      "VisitorId": "visitor_013",
+      "ActionName": "说谢谢",
+      "TriggerRequest": "放行",
+      "ResponseText": "谢谢大哥，您真讲究！",
+      "TriggerCondition": "",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_048",
+      "VisitorId": "visitor_013",
+      "ActionName": "愤怒",
+      "TriggerRequest": "无",
+      "TriggerCondition": "计数:请求>=3",
+      "ResponseText": "你这人怎么听不懂话呢，俺说了没带！",
+      "HideAttributes": []
+    },
+    {
+      "Id": "b_049",
+      "VisitorId": "visitor_013",
+      "ActionName": "离开",
+      "TriggerRequest": "无",
+      "TriggerCondition": "状态:愤怒",
+      "ResponseText": "俺不住了，俺走还不行吗！",
+      "HideAttributes": []
+    }
+  ]
+}

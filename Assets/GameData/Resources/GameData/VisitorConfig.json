@@ -1,0 +1,218 @@
+{
+  "visitors": [
+    {
+      "Id": "visitor_001",
+      "Name": "持工牌员工",
+      "Attributes": [
+        "有工牌",
+        "在名单内",
+        "行为正常"
+      ],
+      "DayUnlock": 1,
+      "Difficulty": 1,
+      "Expression": "笑容",
+      "BadgeAuthenticity": "真",
+      "BadgeExpiry": "有效",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_002",
+      "Name": "忘带工牌的职员",
+      "Attributes": [
+        "无工牌",
+        "在名单内",
+        "行为正常"
+      ],
+      "DayUnlock": 1,
+      "Difficulty": 1,
+      "Expression": "沮丧",
+      "BadgeAuthenticity": "无",
+      "BadgeExpiry": "无",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_003",
+      "Name": "持新工牌员工",
+      "Attributes": [
+        "有工牌",
+        "在名单内",
+        "行为正常",
+        "新样式工牌"
+      ],
+      "DayUnlock": 2,
+      "Difficulty": 1,
+      "Expression": "笑容",
+      "BadgeAuthenticity": "真",
+      "BadgeExpiry": "有效",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_004",
+      "Name": "名单外来客",
+      "Attributes": [
+        "无工牌",
+        "在名单外",
+        "行为正常"
+      ],
+      "DayUnlock": 3,
+      "Difficulty": 2,
+      "Expression": "无",
+      "BadgeAuthenticity": "无",
+      "BadgeExpiry": "无",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_005",
+      "Name": "声称认识老板的访客",
+      "Attributes": [
+        "无工牌",
+        "在名单外",
+        "声称认识老板"
+      ],
+      "DayUnlock": 3,
+      "Difficulty": 2,
+      "Expression": "无",
+      "BadgeAuthenticity": "无",
+      "BadgeExpiry": "无",
+      "CorrectOutcome": "拦截"
+    },
+    {
+      "Id": "visitor_006",
+      "Name": "证件过期的访客",
+      "Attributes": [
+        "持证",
+        "证件过期",
+        "行为正常"
+      ],
+      "DayUnlock": 4,
+      "Difficulty": 2,
+      "Expression": "无",
+      "BadgeAuthenticity": "真",
+      "BadgeExpiry": "过期",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_007",
+      "Name": "言语矛盾的访客",
+      "Attributes": [
+        "无工牌",
+        "在名单外",
+        "行为异常"
+      ],
+      "DayUnlock": 4,
+      "Difficulty": 3,
+      "Expression": "心虚",
+      "BadgeAuthenticity": "无",
+      "BadgeExpiry": "无",
+      "CorrectOutcome": "拦截"
+    },
+    {
+      "Id": "visitor_008",
+      "Name": "贵宾访客",
+      "Attributes": [
+        "有制服",
+        "在名单内",
+        "行为正常"
+      ],
+      "DayUnlock": 5,
+      "Difficulty": 2,
+      "Expression": "笑容",
+      "BadgeAuthenticity": "真",
+      "BadgeExpiry": "有效",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_009",
+      "Name": "\t混乱组合访客",
+      "Attributes": [
+        "无工牌",
+        "在名单外",
+        "行为异常",
+        "证件过期"
+      ],
+      "DayUnlock": 6,
+      "Difficulty": 3,
+      "Expression": "心虚",
+      "BadgeAuthenticity": "假",
+      "BadgeExpiry": "过期",
+      "CorrectOutcome": "拦截"
+    },
+    {
+      "Id": "visitor_010",
+      "Name": "焦急的快递员",
+      "Attributes": [
+        "无工牌",
+        "在名单外",
+        "行为异常",
+        "未完成登记"
+      ],
+      "DayUnlock": 6,
+      "Difficulty": 3,
+      "Expression": "沮丧",
+      "BadgeAuthenticity": "无",
+      "BadgeExpiry": "无",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_011",
+      "Name": "新入职员工",
+      "Attributes": [
+        "有工牌",
+        "在名单外",
+        "行为正常"
+      ],
+      "DayUnlock": 1,
+      "Difficulty": 1,
+      "Expression": "笑容",
+      "BadgeAuthenticity": "真",
+      "BadgeExpiry": "有效",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_012",
+      "Name": "身份不明的贵宾",
+      "Attributes": [
+        "有制服",
+        "在名单外",
+        "行为异常",
+        "声称认识老板"
+      ],
+      "DayUnlock": 5,
+      "Difficulty": 3,
+      "Expression": "心虚",
+      "BadgeAuthenticity": "假",
+      "BadgeExpiry": "有效",
+      "CorrectOutcome": "拦截"
+    },
+    {
+      "Id": "visitor_013",
+      "Name": "外地口音访客",
+      "Attributes": [
+        "无工牌",
+        "在名单内",
+        "口音异常",
+        "声称认识老板"
+      ],
+      "DayUnlock": 3,
+      "Difficulty": 2,
+      "Expression": "无",
+      "BadgeAuthenticity": "无",
+      "BadgeExpiry": "无",
+      "CorrectOutcome": "放行"
+    },
+    {
+      "Id": "visitor_014",
+      "Name": "小偷",
+      "Attributes": [
+        "有工牌",
+        "行为正常"
+      ],
+      "DayUnlock": 1,
+      "Difficulty": 2,
+      "Expression": "心虚",
+      "BadgeAuthenticity": "真",
+      "BadgeExpiry": "过期",
+      "CorrectOutcome": "拦截"
+    }
+  ]
+}

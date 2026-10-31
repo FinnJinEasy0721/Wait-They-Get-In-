@@ -1,0 +1,50 @@
+# ===== Unity / Tuanjie 缓存与本地生成内容 =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ===== IDE / 编辑器 =====
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Plastic SCM 工作区元数据 =====
+/.plastic/
+
+# ===== AI 工具链（不上传） =====
+.codely-cli/
+.codely.packages/
+.codelyignore
+CODELY.md
+CLAUDE.md
+AGENTS.md
+Assets/TJGenerators/
+Assets/TJGenerators.meta
+
+# ===== 测试与临时产物 =====
+/screenshots/
+/rulecards_no_outline.png/

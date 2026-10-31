@@ -1,0 +1,68 @@
+﻿保安七日实习 · BGM 素材包
+下载日期：2026-10-20
+授权：以下曲目均按 CC0 使用（可商用、可修改、无需署名）
+
+一、场景对应
+01 主界面  Children's March Theme（卡通进行曲，循环）
+02 主界面  Happy Clappy Loop（轻快钢琴，循环）
+03 主界面  Happy Ukelele Island Surfing Theme（尤克里里，轻松）
+04 卧室    Happy Lullaby（温柔铃铛/琶音）
+05 卧室    happy lofi day（暖 lo-fi）
+06 卧室    Ukulele Forest Loop（尤克里里，很短，适合安静转场）
+07 选书    Quirky Jazz（俏皮爵士）
+08 选书    Comedy Funny Background Song（ acoustic 喜剧感）
+09 值班    Spy Loop（轻巧的“偷偷观察”循环）
+10 值班    Investigation（调查/核对证件）
+11 结算    Happy Adventure（8-bit 轻快）
+12 结算    Happy menu song（很短，适合结算/按钮）
+
+二、文件清单
+01_menu_childrens_march.wav   WAV  10.77 MB
+02_menu_happy_clappy.wav      WAV   5.88 MB
+03_menu_happy_ukelele.mp3     MP3   3.11 MB
+04_bedroom_happy_lullaby.mp3  MP3   0.42 MB
+05_bedroom_happy_lofi_day.mp3 MP3   2.66 MB
+06_bedroom_ukulele_forest.ogg OGG   0.11 MB
+07_book_quirky_jazz.mp3       MP3  11.27 MB
+08_book_comedy_funny.mp3      MP3   3.44 MB
+09_duty_spy_loop.mp3          MP3   0.62 MB
+10_duty_investigation.ogg     OGG   0.31 MB
+11_result_happy_adventure.mp3 MP3   0.61 MB
+12_result_happy_menu_song.mp3 MP3   0.29 MB
+
+三、来源与作者（全部 CC0）
+01 Children's March Theme — CleytonKauffman
+   https://opengameart.org/content/childrens-march-theme
+02 Happy Clappy Loop — OwlishMedia
+   https://opengameart.org/content/happy-clappy-loop
+03 Happy Ukelele Island Surfing Theme — Tarush Singhal
+   https://opengameart.org/content/happy-ukelele-island-surfing-theme
+04 Happy Lullaby (song17) — cynicmusic
+   https://opengameart.org/content/happy-lullaby-song17
+05 happy lofi day — Tarush Singhal
+   https://opengameart.org/content/happy-lofi-day
+06 Ukulele Forest (Loop) — StarNinjas
+   https://opengameart.org/content/ukulele-forest-beginning-loop-and-end
+07 Quirky Jazz — Spring Spring（页面为 CC0 / OGA-BY 双授权，这里按 CC0 使用）
+   https://opengameart.org/content/quirky-jazz
+08 Comedy Funny Background Song — Almitory（页面为多许可证，这里按 CC0 使用）
+   https://opengameart.org/content/comedy-funny-background-song
+09 Spy Loop — wipics
+   https://opengameart.org/content/spy-loop
+10 Investigation — wipics
+   https://opengameart.org/content/investigation
+11 Happy Adventure (Loop) — TinyWorlds
+   https://opengameart.org/content/happy-adventure-loop
+12 Happy menu song — Blocky Modeler
+   https://opengameart.org/content/happy-menu-song
+
+四、给程序的小提示
+- 01、02 是 WAV，最适合 Unity 里直接循环；03–12 是 MP3/OGG。
+- MP3 循环可能有编码间隙；如果实际听感有“哒”一下，优先把该曲转成 OGG 或 WAV。
+- 值班可以先播 09，遇到需要核对/怀疑的访客时切 10；不要一进值班就两首一起放。
+- 结算用 11 或 12，短、轻，不抢“优秀/合格/不合格”的结果展示。
+
+五、授权说明
+CC0 不要求署名，但建议保留本清单和来源页，方便以后申诉或交接。
+如果游戏里想做 Credits，可以写：
+Music: CC0 assets from OpenGameArt.org (see 曲目清单.txt)

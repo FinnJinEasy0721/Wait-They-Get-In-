@@ -1,0 +1,211 @@
+{
+  "rules": [
+    {
+      "Id": "rule_001",
+      "Name": "请求访客出示工牌",
+      "Description": "请求访客出示工牌。出示者：意愿 + [放行权重] 未出示者：意愿 - [拦截权重]",
+      "Category": "请示",
+      "SlotCost": 1,
+      "CheckAttribute": "是否出示工牌",
+      "SideEffect": "无",
+      "RequestType": "请出示工牌",
+      "PassAttributes": [
+        "有工牌"
+      ],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_002",
+      "Name": "判断工牌样式",
+      "Description": "判断(出示的工牌)的样式。样式库内：意愿 + [放行权重] 样式库外:意愿 - [拦截权重] 未出示者：意愿 - [拦截权重]",
+      "Category": "放行",
+      "SlotCost": 1,
+      "CheckAttribute": "工牌样式是否为最新",
+      "SideEffect": "样式未更新时误拦新工牌访客",
+      "RequestType": "无",
+      "PassAttributes": [
+        "有工牌",
+        "工牌为真"
+      ],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_003",
+      "Name": "名单对照",
+      "Description": "核对(访客姓名)是否在准入名单内。在名单内：意愿 + [放行权重] 不在名单内：意愿 - [拦截权重]",
+      "Category": "放行",
+      "SlotCost": 1,
+      "CheckAttribute": "姓名是否在准入名单",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [
+        "在名单内"
+      ],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_004",
+      "Name": "拥堵请示",
+      "Description": "当(前台滞留人数)达到3人时，触发请示上级流程",
+      "Category": "请示",
+      "SlotCost": 1,
+      "CheckAttribute": "前台滞留人数 ≥ 3",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_005",
+      "Name": "矛盾陈述警戒",
+      "Description": "当访客(陈述内容)前后矛盾时，触发警戒状态",
+      "Category": "警戒",
+      "SlotCost": 2,
+      "CheckAttribute": "访客陈述是否矛盾",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_006",
+      "Name": "制服核验",
+      "Description": "核验访客是否穿着(制服)。穿着制服：意愿 + [放行权重] 未穿着制服：意愿 - [拦截权重]",
+      "Category": "放行",
+      "SlotCost": 1,
+      "CheckAttribute": "是否穿着正规制服",
+      "SideEffect": "未请示员工出示工牌会拦截员工",
+      "RequestType": "无",
+      "PassAttributes": [
+        "有制服"
+      ],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_007",
+      "Name": "登记请示",
+      "Description": "访客(未完成访客登记)时，请示上级处理",
+      "Category": "请示",
+      "SlotCost": 1,
+      "CheckAttribute": "是否完成访客登记",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [
+        "完成访客登记"
+      ],
+      "FailAttributes": [
+        "未完成登记"
+      ]
+    },
+    {
+      "Id": "rule_008",
+      "Name": "行为观察警戒",
+      "Description": "访客行为特征异常（徘徊、窥探）时进入警戒",
+      "Category": "警戒",
+      "SlotCost": 2,
+      "CheckAttribute": "行为特征是否异常",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [
+        "行为正常"
+      ],
+      "FailAttributes": [
+        "行为异常"
+      ]
+    },
+    {
+      "Id": "rule_009",
+      "Name": "口音警戒",
+      "Description": "访客(口音异常)时进入警戒",
+      "Category": "警戒",
+      "SlotCost": 1,
+      "CheckAttribute": "口音特征是否异常",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [
+        "口音正常"
+      ],
+      "FailAttributes": [
+        "口音异常"
+      ]
+    },
+    {
+      "Id": "rule_010",
+      "Name": "过期警戒",
+      "Description": "访客(证件过期)时进入警戒",
+      "Category": "警戒",
+      "SlotCost": 1,
+      "CheckAttribute": "证件是否过期",
+      "SideEffect": "无",
+      "RequestType": "请出示工牌",
+      "PassAttributes": [
+        "证件有效"
+      ],
+      "FailAttributes": [
+        "证件过期"
+      ]
+    },
+    {
+      "Id": "rule_011",
+      "Name": "最高冲突处理",
+      "Description": "当同时触发多个状态且其中一个为(请示)时，只触发请示上级流程，冲突处理类同时只能带一个",
+      "Category": "请示",
+      "SlotCost": 2,
+      "CheckAttribute": "请示覆盖其他状态",
+      "SideEffect": "流程申请时间略微变长，可能导致拥堵",
+      "RequestType": "无",
+      "PassAttributes": [],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_012",
+      "Name": "从宽冲突处理",
+      "Description": "当同时触发多个状态且其中一个为(放行)时，只触发放行，冲突处理类同时只能带一个",
+      "Category": "放行",
+      "SlotCost": 1,
+      "CheckAttribute": "放行覆盖其他状态",
+      "SideEffect": "一旦触发就不会进行后续检查",
+      "RequestType": "无",
+      "PassAttributes": [],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_013",
+      "Name": "戒备冲突处理",
+      "Description": "当同时触发多个状态且其中一个为(警戒)时，只触发警戒，冲突处理类同时只能带一个",
+      "Category": "警戒",
+      "SlotCost": 2,
+      "CheckAttribute": "警戒覆盖其他状态",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_014",
+      "Name": "抉择，抉择",
+      "Description": "当同时触发多个状态时，以(第一条规则触发状态)为准",
+      "Category": "放行",
+      "SlotCost": 2,
+      "CheckAttribute": "第一条规则为准",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [],
+      "FailAttributes": []
+    },
+    {
+      "Id": "rule_015",
+      "Name": "判断工牌时间",
+      "Description": "判断(出示的工牌)过期时间。时间内：意愿 + [放行权重] 时间外：意愿 - [拦截权重] 未出示者:意愿 - [拦截权重]",
+      "Category": "放行",
+      "SlotCost": 1,
+      "CheckAttribute": "检查时间信息",
+      "SideEffect": "无",
+      "RequestType": "无",
+      "PassAttributes": [
+        "证件有效"
+      ],
+      "FailAttributes": []
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schedule": [
+    {
+      "Day": "第1天",
+      "CoreContent": "教学：选书装配规则",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_014",
+        "visitor_002",
+        "visitor_011",
+        "visitor_007"
+      ],
+      "EventDescription": "新保安入职第一天，前台提醒注意失窃",
+      "PlayerTask": "学会装配与观察",
+      "SpecialRule": "无",
+      "ChatMessages": [
+        {
+          "Sender": "小张",
+          "Text": "新保安今天入职，大家照顾下"
+        },
+        {
+          "Sender": "前台",
+          "Text": "提醒！最近楼里东西失窃，注意可疑人员"
+        },
+        {
+          "Sender": "老王",
+          "Text": "今天忘带工牌了，好尴尬"
+        },
+        {
+          "Sender": "小张",
+          "Text": "听说小偷拿的是过期工牌，真证过期那种，别只看有没有牌"
+        },
+        {
+          "Sender": "前台",
+          "Text": "没牌的和真证过期的，今天都可能来，先想好怎么应付吧。"
+        }
+      ],
+      "NewsTitle": "《城市晚报》近期高档写字楼失窃案频发",
+      "NewsContent": "本报讯 近期多栋写字楼发生失窃案，嫌犯惯用手持过期工牌混入。警方提醒各单位加强工牌时效核验，谨防\"真证过期\"人员，真证过期，等同无“证”。",
+      "ChatGroupName": "工作群（6人）"
+    },
+    {
+      "Day": "第2天",
+      "CoreContent": "世界变化首例：工牌样式改版",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_002",
+        "visitor_003",
+        "visitor_014",
+        "visitor_011",
+        "visitor_004"
+      ],
+      "EventDescription": "公司通知：工牌样式改版",
+      "PlayerTask": "发现旧规则失灵，查手册更新",
+      "SpecialRule": "工牌样式更新",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "公司通知，工牌样式改版了！"
+        },
+        {
+          "Sender": "小张",
+          "Text": "新工牌长得跟旧的很像，别认错"
+        },
+        {
+          "Sender": "前台",
+          "Text": "旧图册可能认不出新工牌，要看最新版"
+        },
+        {
+          "Sender": "小张",
+          "Text": "昨天夜班在查失窃的事，谁放进去的谁负责。"
+        }
+      ],
+      "NewsTitle": "《公司内刊》工牌样式全面改版",
+      "NewsContent": "即日起公司启用新版工牌，样式与旧版高度相似。请各单位保安对照最新图册核验，避免误拦持新工牌的员工，未更新图册者，可能把正常员工当成可疑人员。",
+      "ChatGroupName": "工作群（6人）"
+    },
+    {
+      "Day": "第3天",
+      "CoreContent": "新类型访客判断维度变多",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_002",
+        "visitor_004",
+        "visitor_005",
+        "visitor_013",
+        "visitor_007",
+        "visitor_011"
+      ],
+      "EventDescription": "前台反映有陌生访客",
+      "PlayerTask": "补充名单对照规则",
+      "SpecialRule": "无",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "今天有陌生面孔来访"
+        },
+        {
+          "Sender": "小刘",
+          "Text": "有人自称是老板的朋友？"
+        },
+        {
+          "Sender": "前台",
+          "Text": "名单上没名字的先别放"
+        },
+        {
+          "Sender": "小张",
+          "Text": "还有个外地口音的，说话挺急，口音怪不等于坏人，但今天还是留意点。"
+        }
+      ],
+      "NewsTitle": "《城市晚报》\"认识老板\"骗局再现",
+      "NewsContent": "本报讯 多名市民反映遭遇自称\"认识老板\"的访客骗术。律师提醒：正规访客应主动出示证件并配合登记，名单外人员，即使声称认识老板，也应先核对名单或请示上级。",
+      "ChatGroupName": "工作群（6人）"
+    },
+    {
+      "Day": "第4天",
+      "CoreContent": "撒谎与例外首现",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_002",
+        "visitor_006",
+        "visitor_007",
+        "visitor_009",
+        "visitor_011",
+        "visitor_004"
+      ],
+      "EventDescription": "群聊：有人证件可能过期",
+      "PlayerTask": "需要更精细的判定条件",
+      "SpecialRule": "无",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "群里有人的证件好像过期了"
+        },
+        {
+          "Sender": "小张",
+          "Text": "今天说话前后矛盾的人有点多，小心"
+        },
+        {
+          "Sender": "前台",
+          "Text": "真证过期也算混入，别只看真假"
+        },
+        {
+          "Sender": "小张",
+          "Text": "前后对不上，可能不是紧张，是心里有鬼。"
+        }
+      ],
+      "NewsTitle": "《城市晚报》过期证件成混入新套路",
+      "NewsContent": "本报讯 嫌犯使用过期证件混入办公楼的案例增多。物业建议对证件时效保持警惕，必要时请示上级处理，对陈述前后矛盾者，可进入警戒，但注意误伤紧张无辜的访客。",
+      "ChatGroupName": "工作群（6人）"
+    },
+    {
+      "Day": "第5天",
+      "CoreContent": "规则冲突初现",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_002",
+        "visitor_005",
+        "visitor_008",
+        "visitor_012",
+        "visitor_009",
+        "visitor_013"
+      ],
+      "EventDescription": "大客户到访通知",
+      "PlayerTask": "处理优先级冲突",
+      "SpecialRule": "无",
+      "ChatMessages": [
+        {
+          "Sender": "秘书",
+          "Text": "今天有大客户来访，注意接待"
+        },
+        {
+          "Sender": "小张",
+          "Text": "客户看着有点眼生？"
+        },
+        {
+          "Sender": "前台",
+          "Text": "穿制服也不一定就是自己人，名单和证件还是对一下"
+        },
+        {
+          "Sender": "小张",
+          "Text": "要是既像大客户又可疑，先请示还是先放行，得有个优先级。"
+        }
+      ],
+      "NewsTitle": "《财经周刊》神秘大客户频频现身商务楼",
+      "NewsContent": "本周多家公司接待神秘客户，衣着考究但身份存疑。业内提醒：大客户也可能有\"猫腻\"，当无法处理当前访客时，请考虑放行的后果。",
+      "ChatGroupName": "工作群（6人）"
+    },
+    {
+      "Day": "第6天",
+      "CoreContent": "组合压力",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_002",
+        "visitor_009",
+        "visitor_010",
+        "visitor_012",
+        "visitor_007",
+        "visitor_014"
+      ],
+      "EventDescription": "门口人流复杂",
+      "PlayerTask": "在脑容量内做取舍",
+      "SpecialRule": "无",
+      "ChatMessages": [
+        {
+          "Sender": "前台",
+          "Text": "门口人流复杂，快递也来凑热闹"
+        },
+        {
+          "Sender": "工会",
+          "Text": "注意快递员权益"
+        },
+        {
+          "Sender": "小张",
+          "Text": "有人无牌、行为怪、证件还过期，全撞一起了"
+        },
+        {
+          "Sender": "前台",
+          "Text": "脑容量不够就别什么都装，先想清楚今天最怕什么。"
+        }
+      ],
+      "NewsTitle": "《城市晚报》商务楼人流高峰将至",
+      "NewsContent": "本报讯 随着物流高峰，商务楼快递员与访客数量激增。物业公司提醒保持前台畅通，避免拥堵，人员相对复杂可能同时触发多条警戒，保安需稳快做出判断，警惕踩踏事故。",
+      "ChatGroupName": "工作群（6人）"
+    },
+    {
+      "Day": "第7天",
+      "CoreContent": "复盘日：综合访客组合",
+      "VisitorIds": [
+        "visitor_001",
+        "visitor_002",
+        "visitor_005",
+        "visitor_006",
+        "visitor_008",
+        "visitor_009",
+        "visitor_012",
+        "visitor_014"
+      ],
+      "EventDescription": "试用期最后一天",
+      "PlayerTask": "为最终文书做最终调优",
+      "SpecialRule": "无",
+      "ChatMessages": [
+        {
+          "Sender": "老板",
+          "Text": "试用期最后一天，综合访客都要来，给保安最后的机会"
+        },
+        {
+          "Sender": "前台",
+          "Text": "大家都盯着今天的表现"
+        },
+        {
+          "Sender": "小张",
+          "Text": "之前漏掉的规则，今天可能会找上门"
+        },
+        {
+          "Sender": "前台",
+          "Text": "认识老板的、证件过期的、大客户，今天一个都别漏。"
+        }
+      ],
+      "NewsTitle": "《公司内刊》试用期考核今日收官",
+      "NewsContent": "今日为新保安试用期最后一天。公司管理层表示：综合表现将决定最终文书评价与薪资档位，此前放行或拦截的每个决定，都可能在今天得到回响。",
+      "ChatGroupName": "工作群（6人）"
+    }
+  ]
+}
